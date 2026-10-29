@@ -2,10 +2,12 @@
 
 [String AI](https://www.string.ink/) 的 [Magpie](https://usemagpie.ai/) 供应商插件。登录账号后自动读取全部可用 API Key，加载各密钥可用的模型，并在请求时选择对应密钥。余额和分组额度显示在一张供应商卡片中。
 
+> **这是 String AI 维护的分支。** 原始项目由 [Jiao77](https://github.com/Jiao77/magpie-string-ai) 编写，MIT 许可，版权归原作者。本分支只发布审查过的固定版本，安装时请使用下面的版本号；相对上游 `1.1.0` 的改动见 [CHANGELOG.md](CHANGELOG.md)。上游继续开发，本分支按需同步。
+
 ## 安装和登录
 
 ```bash
-magpie plugin add github:Jiao77/magpie-string-ai
+magpie plugin add github:StringAI-Team/magpie-string-ai#v1.1.1
 magpie plugin login string-ai
 ```
 

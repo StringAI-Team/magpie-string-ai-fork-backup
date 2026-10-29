@@ -1,6 +1,6 @@
 {
   "name": "magpie-string-ai",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "String AI 专用 Magpie 插件：账号登录后自动读取全部可用 API Key、加载模型并选择对应密钥，单卡片显示余额与额度。",
   "type": "module",
   "main": "./index.mjs",
@@ -12,7 +12,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node test/test.mjs"
+    "test": "node test/test.mjs && node test/redirect.test.mjs"
   },
   "keywords": [
     "magpie",
@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jiao77/magpie-string-ai.git"
+    "url": "git+https://github.com/StringAI-Team/magpie-string-ai.git"
   },
-  "homepage": "https://github.com/Jiao77/magpie-string-ai#readme",
+  "homepage": "https://github.com/StringAI-Team/magpie-string-ai#readme",
   "bugs": {
-    "url": "https://github.com/Jiao77/magpie-string-ai/issues"
+    "url": "https://github.com/StringAI-Team/magpie-string-ai/issues"
   }
 }

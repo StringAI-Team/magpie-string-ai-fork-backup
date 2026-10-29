@@ -72,7 +72,7 @@ export default async function StringAIPlugin({ client } = {}, options = {}) {
             headers.set("authorization", `Bearer ${key}`)
             headers.set("x-api-key", key)
             headers.delete("x-goog-api-key")
-            return fetch(input, { ...init, headers })
+            return fetch(input, { ...init, headers, redirect: "error" })
           },
         }
       },
